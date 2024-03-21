@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap') html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+  background-color: whitesmoke;
+}
+
+.dark {
+  background-color: #222832;
+
+  color: white;
+  cursor: pointer;
+  /* padding: 10px; */
+}
+
+.dark th {
+  background-color: #675c04;
+}
+
+.dark .quote {
+  background-color: #675c04;
+  color: white;
+}
+
+
+#dark {
+  margin-left: 195vh;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.quote {
+  background-color: #4CAF50;
+  padding: 10px;
+  margin: 0px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  font-family: "Gabarito", sans-serif;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect for rows */
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Style for the table header */
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/*Style for add-item table */
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form {
+  margin-left: 30vh;
+}
